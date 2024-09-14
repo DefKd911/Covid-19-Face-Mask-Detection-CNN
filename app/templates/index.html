@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Mask Recognition System</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        img {
+            border: 5px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Mask Recognition System</h1>
+    <img src="{{ url_for('video_feed') }}" width="80%" />
+</body>
+</html>
