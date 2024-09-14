@@ -13,7 +13,8 @@ using computer vision techniques. It's designed to help enforce mask-wearing pol
 ->Includes tools for model evaluation and visualization
 
 # Model Architecture (VGG-16)
-![download](https://github.com/user-attachments/assets/8d5a9483-1ba1-455f-adad-6108f56cce2b)
+![image](https://github.com/user-attachments/assets/667178de-5d6f-4e9b-a666-e6314b58cffb)
+
 
 This project uses transfer learning with the VGG16 model pre-trained on ImageNet. The base VGG16 model is followed by:
 
