@@ -31,6 +31,8 @@ The model is trained on the Face Mask Detection dataset from Kaggle, which inclu
 3725 images of people wearing masks & 
 3828 images of people not wearing masks
 
+# Model training & Evaluation 
+![image](https://github.com/user-attachments/assets/1712bcc9-f401-472c-986d-ec5c2fdfb10f)
 
 # Future Improvements
 
@@ -41,3 +43,4 @@ Explore other pre-trained models (e.g., MobileNet, ResNet)
 Expand dataset to include more diverse images
 
 Implement object detection to locate faces before classification
+
