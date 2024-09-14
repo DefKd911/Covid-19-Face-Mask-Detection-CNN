@@ -1,19 +1,43 @@
-# Covid -19 || Face-Mask-Detection-CNN Model
+
+#  COVID -19 facemask detection 
+This project implements a deep learning model to detect whether a person is wearing a face mask or not, 
+using computer vision techniques. It's designed to help enforce mask-wearing policies in public spaces during the COVID-19 pandemic.
+
+# Features
+-> Detects presence of face masks in images
+
+->Uses transfer learning with VGG16 for efficient training
+
+->Achieves high accuracy on mask detection task
+
+->Includes tools for model evaluation and visualization
+
+# Model Architecture (VGG-16)
+![download](https://github.com/user-attachments/assets/8d5a9483-1ba1-455f-adad-6108f56cce2b)
+
+This project uses transfer learning with the VGG16 model pre-trained on ImageNet. The base VGG16 model is followed by:
+
+->Global Average Pooling
+
+->Dense layer (256 units, ReLU activation)
+
+->Output Dense layer (1 unit, Sigmoid activation)
 
 
-Kaggle PROJECT- CNN model:VGG16
 
-in recent trend in world wide Lockdowns due to COVID19 outbreak, as Face Mask is became mandatory for everyone while roaming outside, approach of Deep Learning for Detecting Faces With and Without mask were a good trendy practice. Here I have created a model that detects face mask trained on 7553 images with 3 color channels (RGB).
-On Custom CNN architecture Model training accuracy reached 98% and Validation accuracy 97%.
+# Dataset
+The model is trained on the Face Mask Detection dataset from Kaggle, which includes:
 
-Content
-Data set consists of 7553 RGB images in 2 folders as with_mask and without_mask. Images are named as label with_mask and without_mask. Images of faces with mask are 3725 and images of faces without mask are 3828.
-
-Remaining 5777 images are collected and filtered from Google search engine.
-
-3725 Images of Face with Mask
-
-3828 Images of Face without Mask.
+3725 images of people wearing masks & 
+3828 images of people not wearing masks
 
 
-![image](https://github.com/user-attachments/assets/ad23f510-9053-468a-932b-4aa2d53a7bb9)
+# Future Improvements
+
+Implement real-time mask detection using webcam feed
+
+Explore other pre-trained models (e.g., MobileNet, ResNet)
+
+Expand dataset to include more diverse images
+
+Implement object detection to locate faces before classification
